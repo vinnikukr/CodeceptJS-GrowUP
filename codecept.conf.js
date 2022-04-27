@@ -3,7 +3,7 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'https://bsa-growup.herokuapp.com/login',
+      url: 'http://localhost:3000/',
       show: true
       //windowSize: '1200x900'
     }
